@@ -1,0 +1,68 @@
+---
+layout: page
+title: hackernauts
+tagline: ego hack, ergo sum
+---
+{% include JB/setup %}
+
+{% for post in paginator.posts %}
+
+    {% if post.linkedlist %}
+
+        <h2> 
+            <a href=" {{post.url }} ">#! </a><a href="{{ post.baselink }}" style="color: #174A8B;">{{ post.title }}</a>
+        </h2>
+    
+    {% else %}  
+        <h2> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> </h2>
+        
+    {% endif %}
+
+<hr>
+{{ post.content }}
+<hr>
+
+<br />
+{% endfor %}
+
+<div id="post-pagination" class="pagination">
+
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/">Previous</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}">Previous</a>
+    {% endif %}
+  {% else %}
+    <span>Previous</span>
+  {% endif %}
+
+  <!-- <ul class="pages">
+    <li class="page">
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
+      {% else %}
+      <a href="/">1</a>
+      {% endif %}
+    </li>
+
+    {% for count in (2..paginator.total_pages) %}
+    <li class="page">
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul> -->
+
+  {% if paginator.next_page %}
+
+    <a href="/page{{paginator.next_page}}">Next</a>
+    
+  {% else %}
+    <span>Next</span>
+  {% endif %}
+
+</div>
