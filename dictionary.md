@@ -111,6 +111,9 @@ A network communication point with a computer. Some common ports are webservers 
 ### Port Scanner ###  
 A tool that scans ports to tell you if they are open or not. Nmap is the defacto standard. Often a good learning exercise is to build your own simple port scanner.
 
+### PRE ###
+Protocol Reverse Engineering. It means taking a packet capture (or pcap), and without documentation, figure out what its doing and what its sending. By that I mean what is protocol structure is and what data is being sent. Its a tricky bit of business, and takes time, talent, and luck. However, sometimes the hacking payoff can be great, as custom protocols are often poorly secured.
+
 ### Proxy ###  
 Generally. And specifically like a SOCKS proxy
 
