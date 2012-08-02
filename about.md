@@ -7,7 +7,7 @@ description: "A little about the little guy"
 
 # About
 <hr />
-Ego hack, ergo sum. This site is about exploring the security and technology landscape. It is written primarality for the relitive newcomer to infosec in general, or hacking in particular. The posts are designed to enable somebody with a reasonable level of technical skill do and understand some of the things that a hacker would do. If you find you like it, there is also some advanced content posted occasionally, and I publish links to other excellent security sites, blogs, and tools.
+Ego hack, ergo sum. This site is about exploring the security and technology landscape. It is written primarily for the relative newcomer to infosec in general, or hacking in particular. The posts are designed to enable somebody with a reasonable level of technical skill do and understand some of the things that a hacker would do. If you find you like it, there is also some advanced content posted occasionally, and I publish links to other excellent security sites, blogs, and tools.
 
 ## About the site
 
