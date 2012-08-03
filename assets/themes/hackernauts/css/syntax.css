@@ -1,4 +1,4 @@
-.highlight { background: #272822; border-radius: 10px 10px 10px 10px }
+.highlight { border-radius: 10px 10px 10px 10px }
 .highlight td .linenos { background-color: #272822; padding-right: 10px; font-color: white;}
 .highlight span .linenos { background-color: #49483e; padding: 0 5px 0 5px;}
 .highlight .c { color: #75715e } /* Comment */

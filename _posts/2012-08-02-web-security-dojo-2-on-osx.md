@@ -13,7 +13,7 @@ First you will want to download the [Dojo][dojo] ova file from Sourceforge. Whil
 
 {% highlight bash %}
 
-cd /Applications/VMware\ OVF\ Tool/
+$ cd /Applications/VMware\ OVF\ Tool/
 
 {% endhighlight %}
 
@@ -21,9 +21,10 @@ Now, of course you will have to wait until the ova file is completely downloaded
 
 {% highlight bash %}
 
-./ovftool --lax ~/Downloads/Web_Security_Dojo-2.0.ova ~/Downloads
+$ ./ovftool --lax ~/Downloads/Web_Security_Dojo-2.0.ova ~/Downloads
 
 {% endhighlight %}
+
 
 Important things to note here, you _must_ specifcy the `--lax` flag or it won't work. You can also specify a destination other than the Downloads folder, that was just for convenience. I would recommend you put it in a directory where you keep your VMs. Double click to open it, ignore some of the error messages, and away you go. Although it did give some errors starting up, it worked just fine for me, and hasn't given me an error since. 
 

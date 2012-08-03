@@ -11,7 +11,7 @@ Quite a bit of SQL injection going on in these past few weeks. Interesting how w
 
 So for the tl;dr[^2] crowd, here is the script, left mostly intact from [Volatile Minds][VM]. Big props for writing this, [Brandon][bdon]!
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 
 #!/usr/bin/env ruby
 
