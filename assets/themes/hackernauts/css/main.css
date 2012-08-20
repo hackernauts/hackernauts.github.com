@@ -221,13 +221,15 @@ a {
 }
 
 .menu {
-	font-size:.7em;
+	font-size: 14px;
 }
 
 .title .menu{
 	font: .7em 'DejaVuSerifBook', helvetica, arial, clean, sans-serif;
 	list-style-type: none;
 	font-weight: none;
+	font-size: .7em;
+	padding-top: -10px;
 }
 
 .title a {
