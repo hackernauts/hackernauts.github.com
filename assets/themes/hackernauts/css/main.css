@@ -65,6 +65,7 @@ html, body {
 
 body {
 	text-align: justify;
+	max-width: 768px;
 	width: 60.111%;
 	margin-right: 2.222%;
 	margin-left: 15%;
@@ -83,6 +84,7 @@ h1 {
 h2 {
 	font: 1.9em 'BebasNeueRegular', helvetica, arial, clean, sans-serif;
 	text-decoration: none;
+	padding-top: 20px;
 }
 
 h3 {
@@ -209,21 +211,23 @@ a {
 }
 
 .title {  
-  font: 2.8em 'BebasNeueRegular', helvetica, arial, clean, sans-serif;
+  font: 3.0em 'BebasNeueRegular', helvetica, arial, clean, sans-serif;
 /*  color: #a00;*/
   font-weight: bold;
-  position: fixed;
-  margin-left: 62%;
+  text-align: center;
+/*  position: fixed;
+  margin-left: 62%;*/
 
 }
 
 .menu {
-	padding-top: -10px;
+	font-size:.7em;
 }
 
-.title .menu ul{
-	font: .8em 'DejaVuSerifBook', helvetica, arial, clean, sans-serif;
+.title .menu{
+	font: .7em 'DejaVuSerifBook', helvetica, arial, clean, sans-serif;
 	list-style-type: none;
+	font-weight: none;
 }
 
 .title a {
