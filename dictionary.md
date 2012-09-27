@@ -25,7 +25,7 @@ Code written in Assembly. Features low level instructions to the CPU. Because it
 A principle of secure that allows us to know you are who you say you are. Attacks against this rely on impersonation of legitimate users. Many methods are used to try to authenticate, often tokens or passwords. The list of possible tokens is a long.
 
 ### Base64 ### 
-A type of encoding which represents binary data in ASCII form. Not generally human readable human readable. 
+A type of encoding which represents binary data in ASCII form. Not generally human readable.
 
 ### Binary ###  
 Usually refers to a compiled executable. Not human readable (without tools). Because it is not readable, sometimes is used to sneak code into places it shouldn't be. Binary is the 1's and 0's of an application.
@@ -49,7 +49,7 @@ When its working it means only the people that should have access to information
 Cross Site Request Forgery. A way to make one website take advantage of another websites functionality without the user knowing. It relies on the user already being logged into an account somewhere, and so is somewhat complicated. Usually involves a targeted phish to pull off. When this vulnerability really shines is when it is worm-able, e.g. one infection leads to many others.
 
 ### DOM ###  
-Document Object Model. A part of a website that might be vulnerable to XSS.
+Document Object Model. A part of a website that might be vulnerable to XSS. Javascript writes this.
 
 ### DoS ###  
 Or sometimes DDoS. Denial of Service, or Dedicated Denial of Service. A type of attack that involves sending more requests than a resource can handle. Sometimes these are triggered on accident by misconfigured services, and sometimes they are done maliciously to bring something down. Because of the relative simplicity of the attack, it is a favorite of script kiddies. They use this attack to bring down Internet sites that they don't like at the moment.
@@ -65,6 +65,9 @@ Protects one thing from another thing. Can be a dedicated device running to prot
 
 ### Hack ###  
 Often it refers to a trick to get past some control, like a username password screen. Generally it refers to making something perform in a way it was not supposed to for a specific purpose.
+
+### Hacker ###
+A person who hacks.
 
 ### Hackernauts ###  
 An awesome website about hacking.
@@ -98,6 +101,9 @@ An attack where the target system can be forced to compare password hashes direc
 
 ### Payload ###
 The program that is delivered to a vulnerable computer in order to exploit it. Sometimes the payload is a shell, sometimes a payload might be ads, or a bot.
+
+### Penetration Tester ###
+Or 'Pen Tester'. Basically a hacker that people hire to test their systems. The best are usually good communicators, talking and writing. They also have their own specialties, just like regular hackers, i.e., social engineering, web hacking, host attacks, firewall or network controls evasion, coding, decompiling, persistence. Not to say that they must be limited. Some few are good at everything.
 
 ### Phish ###  
 A communication, usually an email, designed with the sole purpose of getting a user to click a link. A spear-phish is a specifically targeted phish for a specific company or person. A decent phish can get around 5% click turnover. With some minimal effort, you can get that up to about about 10 or 15%. The more effort, the better the chance of success.
@@ -142,7 +148,7 @@ Code that gives a hacker a remote *shell*. This could be any type of code, writt
 Programs have programmatic signature, or a common piece of code that can be used to identify it. These are formed from how the program executes, and the way that the program is written. Signatures for malware are used to prevent them from being transferred or executed.
 
 ### SQLi ###  
-SQL, or Structured Query Language, injection. SQL is the language used by databases to manipulate their contents. A SQLi attack causes your code to run on the database, allowing you to manipulate the contents of the database. Good stuff is usually found in databases, like usernames, password hashes, credit cards, Social Security Numbers, things like that.
+SQL, or Structured Query Language, injection. SQL is the language used by databases to manipulate their contents. A SQLi attack causes your attack code to run on the database, allowing you to manipulate the contents of the database. Good stuff is usually found in databases, like usernames, password hashes, credit cards, Social Security Numbers, things like that.
 
 ### Threat ###  
 A factor in assessing risk. Threat, sometimes threat agent, is the attacker or instigator. Usually a person or entity, but sometimes an event like a tornado or earthquake.
@@ -157,7 +163,7 @@ Uniform Resource Locator. You may see URI, uniform resource identifier, used int
 A type of malware that infects a computer to do malicious things. For example, deleting all your Foo Fighters albums, prompting you to install other bad software, or emailing all your friends to tell them how bad at security you really are. 
 
 ### Vulnerability ###  
-A weak spot in the armor. Like a bad haircut on a teenage girl, an unpatched Windows Server, or a root account without a password.
+A weak spot in the armor. Like a bad haircut on a teenage girl, an unpatched Windows Server, a root account without a password, or a text input field without validation.
 
 ### XSS ###  
-Cross Site Scripting.
+Cross Site Scripting. One of the top vulnerabilities according to OWASP. The vulnerability is that the site allows user input to be executed on the page. The (common) attack against this is to make a link that uses the vulnerability to make your (bad) code to look like its coming from a good page. Depending on what the code is, you can steal someones session, 'hook' their browser so you can look at everything the browse (in addition to other things), or exploit their host with a drive-by.
