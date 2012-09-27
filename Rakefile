@@ -97,7 +97,7 @@ task :llpost do
     post.puts "category: "
     post.puts "tags: []"
     post.puts "linkedlist: true"
-    post.puts "baseurl: #{url}"
+    post.puts "baselink: #{url}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
