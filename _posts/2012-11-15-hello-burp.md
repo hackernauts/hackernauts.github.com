@@ -17,7 +17,7 @@ As of now you can make a comment and highlight any request that you make through
 
 ## Pasting into Repeater
 
-This is situational, but it can be a real time saver. I enjoy manually browsing the site I am attacking with Burp proxying/logging in the background. Consider this, you have intercept turned off because you are just testing some use cases, when you come across something interesting. You want to start messing with this request/page/parameter immediately. Well, you could go back, check the target tab, and drill down, with a little trial and error, to the page or request that you want to send to the Repeater. Or you go to your Proxy logs, find the request that you want to repeat, and hit ⌘ - R to send it to the Repeater. Now, though, you can just copy the link from the address bar and paste it into the Repeater, which will auto supply the cookies from your current session and set it all up as you would expect. Here is your option at work:
+This is situational, but it can be a real time saver. I enjoy manually browsing the site I am attacking[^3] with Burp proxying/logging in the background. Consider this, you have intercept turned off because you are just testing some use cases, when you come across something interesting. You want to start messing with this request/page/parameter immediately. Well, you could go back, check the target tab, and drill down, with a little trial and error, to the page or request that you want to send to the Repeater. Or you go to your Proxy logs, find the request that you want to repeat, and hit ⌘ - R to send it to the Repeater. Now, though, you can just copy the link from the address bar and paste it into the Repeater, which will auto supply the cookies from your current session and set it all up as you would expect. Here is your option at work:
 
 [![Paste Repeater](/images/pasteurl-request.png)](/images/pasteurl-request.png)
 
@@ -41,5 +41,6 @@ If you have been paying attention on the web, you probably have seen lots of vul
 
 Burp has made some great strides. These are by no means all of the features added in this reelase. Enjoy the awesome built in help, and use the fully developed JSON stack to pwn apps more fully.Thanks again burp.
 
+[^3]: This is actually not quite the attack part, more discovery
 [^0]: Actually, pro users have had this since 1.4.12
 [^1]: You have to then point the device to your proxy, there are several ways to do this. If you want me to do a step by step, let me know on twitter, I might be persuaded. 
